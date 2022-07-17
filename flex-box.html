@@ -1,30 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <style>
-        .box
-        {
-            border: 1px dotted red;
-            width: 10vw;
-            height: 10vw;
-            margin: 10px;
-            max-width: 100px;
-            max-height: 100px;
-            background-color: red;
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FLEXBOX</title>
 
-        }
+    <style>
+      .box {
+        border: 1px dotted red;
+        width: 10vw;
+        height: 10vw;
+        margin: 10px;
+        max-width: 100px;
+        max-height: 100px;
+        background-color: red;
+      }
+
+
+      /* This background FLEX BOX */
+      .flex-container
+    {
+        height: 500px;
+        background-color: orange;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column-reverse;
+        
+    }
+    /* This background FLEX BOX */
+
+
+
+    /* This is BOX */
+    .box
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+
+    }
+    /* This is BOX */
+
+
+
+    /* This Font Section */
+    h6
+    {
+        color: white;
+        font-size: 1.5vw;
+        
+    }
+
+
+
+    #heading
+    {
+        text-align: center;
+        background-color: greenyellow;
+        border-radius: 5px;
+    }
+    
+    
+   
+
+
+
+
     </style>
-    
-    
-    <title>Document</title>
-</head>
-<body>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-</body>
+  </head>
+  <body>
+      <h1 id="heading">THIS COLUMN REVERSE</h1>
+    <content class="flex-container">
+      <div class="box" id="box1"><h6>ONE</h3></div>
+      <div class="box" id="box2"><h6>TWO</h3></div>
+      <div class="box" id="box3"><h6>THREE</h3></div>
+    </content>
+  </body>
 </html>
