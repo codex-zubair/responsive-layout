@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+        body
+        {
+            
+            max-width: 1240px;
+            margin: 0 auto;
+        }
+
+        .gallery-section
+        {
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            column-gap: 20px;
+            row-gap: 100px;
+        }
+
+
+        .gallery-money-div
+        {
+            border: 2px solid black;
+            height: 700px;
+           
+            
+        }
+
+
+        /* Image Fluid */
+        .image
+        {
+            width: 100%;
+        }
+
+
+        /* 575> 576>766>991>1200 */
+
+        @media screen and (max-width:575px) {
+
+
+           
+
+            .gallery-section
+        {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 10px;
+            
+        }
+            
+        }
+
+        @media screen and (min-width:576px) {
+
+
+           
+
+            .gallery-section
+        {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+          
+            
+        }
+            
+        }
+        
+        @media screen and (min-width:766px) {
+
+
+           
+
+            .gallery-section
+        {
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+          
+            
+        }
+            
+        }
+        
+        @media screen and (min-width:991px) {
+
+
+           
+
+            .gallery-section
+        {
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+          
+            
+        }
+            
+        }
+        @media screen and (min-width:1200px) {
+
+
+           
+
+            .gallery-section
+        {
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+          
+            
+        }
+            
+        }
+        @media screen and (min-width:1400px) {
+
+
+           
+
+            .gallery-section
+        {
+            display: grid;
+            grid-template-columns: repeat(8,1fr);
+          
+            
+        }
+            
+        }
+    </style>
+
+
+
+
+    <title>Media Query</title>
+</head>
+<body>
+    <h1>This is For Media Query</h1>
+
+    <section class="gallery-section">
+        <div class = "gallery-money-div">
+            <img src="./images/money.jpg" alt="" class="image">
+            <h2 class="title-heading">This is Money</h2>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. A at laboriosam quo vel nihil explicabo ratione ipsa, quas sunt ex? Ex soluta, tempore quod sapiente repudiandae tenetur suscipit possimus earum reprehenderit similique ipsum quibusdam illo molestiae. Quia, provident reiciendis nostrum molestias officiis ea, rem a, ut suscipit est earum harum.</p>
+            
+        </div>
+        <div class = "gallery-money-div">
+            <img src="./images/money.jpg" alt="" class="image">
+            <h2 class="title-heading">This is Money</h2>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. A at laboriosam quo vel nihil explicabo ratione ipsa, quas sunt ex? Ex soluta, tempore quod sapiente repudiandae tenetur suscipit possimus earum reprehenderit similique ipsum quibusdam illo molestiae. Quia, provident reiciendis nostrum molestias officiis ea, rem a, ut suscipit est earum harum.</p>
+        </div>
+        <div class = "gallery-money-div">
+            <img src="./images/money.jpg" alt="" class="image">
+            <h2 class="title-heading">This is Money</h2>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. A at laboriosam quo vel nihil explicabo ratione ipsa, quas sunt ex? Ex soluta, tempore quod sapiente repudiandae tenetur suscipit possimus earum reprehenderit similique ipsum quibusdam illo molestiae. Quia, provident reiciendis nostrum molestias officiis ea, rem a, ut suscipit est earum harum.</p>
+        </div>
+        <div class = "gallery-money-div">
+            <img src="./images/money.jpg" alt="" class="image">
+            <h2 class="title-heading">This is Money</h2>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. A at laboriosam quo vel nihil explicabo ratione ipsa, quas sunt ex? Ex soluta, tempore quod sapiente repudiandae tenetur suscipit possimus earum reprehenderit similique ipsum quibusdam illo molestiae. Quia, provident reiciendis nostrum molestias officiis ea, rem a, ut suscipit est earum harum.</p>
+        </div>
+        <div class = "gallery-money-div">
+            <img src="./images/money.jpg" alt="" class="image">
+            <h2 class="title-heading">This is Money</h2>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. A at laboriosam quo vel nihil explicabo ratione ipsa, quas sunt ex? Ex soluta, tempore quod sapiente repudiandae tenetur suscipit possimus earum reprehenderit similique ipsum quibusdam illo molestiae. Quia, provident reiciendis nostrum molestias officiis ea, rem a, ut suscipit est earum harum.</p>
+        </div>
+        <div class = "gallery-money-div">
+            <img src="./images/money.jpg" alt="" class="image">
+            <h2 class="title-heading">This is Money</h2>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. A at laboriosam quo vel nihil explicabo ratione ipsa, quas sunt ex? Ex soluta, tempore quod sapiente repudiandae tenetur suscipit possimus earum reprehenderit similique ipsum quibusdam illo molestiae. Quia, provident reiciendis nostrum molestias officiis ea, rem a, ut suscipit est earum harum.</p>
+        </div>
+        <div class = "gallery-money-div">
+            <img src="./images/money.jpg" alt="" class="image">
+            <h2 class="title-heading">This is Money</h2>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. A at laboriosam quo vel nihil explicabo ratione ipsa, quas sunt ex? Ex soluta, tempore quod sapiente repudiandae tenetur suscipit possimus earum reprehenderit similique ipsum quibusdam illo molestiae. Quia, provident reiciendis nostrum molestias officiis ea, rem a, ut suscipit est earum harum.</p>
+        </div>
+        <div class = "gallery-money-div">
+            <img src="./images/money.jpg" alt="" class="image">
+            <h2 class="title-heading">This is Money</h2>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. A at laboriosam quo vel nihil explicabo ratione ipsa, quas sunt ex? Ex soluta, tempore quod sapiente repudiandae tenetur suscipit possimus earum reprehenderit similique ipsum quibusdam illo molestiae. Quia, provident reiciendis nostrum molestias officiis ea, rem a, ut suscipit est earum harum.</p>
+        </div>
+        <div class = "gallery-money-div">
+            <img src="./images/money.jpg" alt="" class="image">
+            <h2 class="title-heading">This is Money</h2>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. A at laboriosam quo vel nihil explicabo ratione ipsa, quas sunt ex? Ex soluta, tempore quod sapiente repudiandae tenetur suscipit possimus earum reprehenderit similique ipsum quibusdam illo molestiae. Quia, provident reiciendis nostrum molestias officiis ea, rem a, ut suscipit est earum harum.</p>
+        </div>
+        <div class = "gallery-money-div">
+            <img src="./images/money.jpg" alt="" class="image">
+            <h2 class="title-heading">This is Money</h2>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. A at laboriosam quo vel nihil explicabo ratione ipsa, quas sunt ex? Ex soluta, tempore quod sapiente repudiandae tenetur suscipit possimus earum reprehenderit similique ipsum quibusdam illo molestiae. Quia, provident reiciendis nostrum molestias officiis ea, rem a, ut suscipit est earum harum.</p>
+        </div>
+        <div class = "gallery-money-div">
+            <img src="./images/money.jpg" alt="" class="image">
+            <h2 class="title-heading">This is Money</h2>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. A at laboriosam quo vel nihil explicabo ratione ipsa, quas sunt ex? Ex soluta, tempore quod sapiente repudiandae tenetur suscipit possimus earum reprehenderit similique ipsum quibusdam illo molestiae. Quia, provident reiciendis nostrum molestias officiis ea, rem a, ut suscipit est earum harum.</p>
+        </div>
+        <div class = "gallery-money-div">
+            <img src="./images/money.jpg" alt="" class="image">
+            <h2 class="title-heading">This is Money</h2>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. A at laboriosam quo vel nihil explicabo ratione ipsa, quas sunt ex? Ex soluta, tempore quod sapiente repudiandae tenetur suscipit possimus earum reprehenderit similique ipsum quibusdam illo molestiae. Quia, provident reiciendis nostrum molestias officiis ea, rem a, ut suscipit est earum harum.</p>
+        </div>
+        <div class = "gallery-money-div">
+            <img src="./images/money.jpg" alt="" class="image">
+            <h2 class="title-heading">This is Money</h2>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. A at laboriosam quo vel nihil explicabo ratione ipsa, quas sunt ex? Ex soluta, tempore quod sapiente repudiandae tenetur suscipit possimus earum reprehenderit similique ipsum quibusdam illo molestiae. Quia, provident reiciendis nostrum molestias officiis ea, rem a, ut suscipit est earum harum.</p>
+        </div>
+        <div class = "gallery-money-div">
+            <img src="./images/money.jpg" alt="" class="image">
+            <h2 class="title-heading">This is Money</h2>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. A at laboriosam quo vel nihil explicabo ratione ipsa, quas sunt ex? Ex soluta, tempore quod sapiente repudiandae tenetur suscipit possimus earum reprehenderit similique ipsum quibusdam illo molestiae. Quia, provident reiciendis nostrum molestias officiis ea, rem a, ut suscipit est earum harum.</p>
+        </div>
+        <div class = "gallery-money-div">
+            <img src="./images/money.jpg" alt="" class="image">
+            <h2 class="title-heading">This is Money</h2>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. A at laboriosam quo vel nihil explicabo ratione ipsa, quas sunt ex? Ex soluta, tempore quod sapiente repudiandae tenetur suscipit possimus earum reprehenderit similique ipsum quibusdam illo molestiae. Quia, provident reiciendis nostrum molestias officiis ea, rem a, ut suscipit est earum harum.</p>
+        </div>
+        <div class = "gallery-money-div">
+            <img src="./images/money.jpg" alt="" class="image">
+            <h2 class="title-heading">This is Money</h2>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. A at laboriosam quo vel nihil explicabo ratione ipsa, quas sunt ex? Ex soluta, tempore quod sapiente repudiandae tenetur suscipit possimus earum reprehenderit similique ipsum quibusdam illo molestiae. Quia, provident reiciendis nostrum molestias officiis ea, rem a, ut suscipit est earum harum.</p>
+        </div>
+        <div class = "gallery-money-div">
+            <img src="./images/money.jpg" alt="" class="image">
+            <h2 class="title-heading">This is Money</h2>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. A at laboriosam quo vel nihil explicabo ratione ipsa, quas sunt ex? Ex soluta, tempore quod sapiente repudiandae tenetur suscipit possimus earum reprehenderit similique ipsum quibusdam illo molestiae. Quia, provident reiciendis nostrum molestias officiis ea, rem a, ut suscipit est earum harum.</p>
+        </div>
+        <div class = "gallery-money-div">
+            <img src="./images/money.jpg" alt="" class="image">
+            <h2 class="title-heading">This is Money</h2>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. A at laboriosam quo vel nihil explicabo ratione ipsa, quas sunt ex? Ex soluta, tempore quod sapiente repudiandae tenetur suscipit possimus earum reprehenderit similique ipsum quibusdam illo molestiae. Quia, provident reiciendis nostrum molestias officiis ea, rem a, ut suscipit est earum harum.</p>
+        </div>
+        <div class = "gallery-money-div">
+            <img src="./images/money.jpg" alt="" class="image">
+            <h2 class="title-heading">This is Money</h2>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. A at laboriosam quo vel nihil explicabo ratione ipsa, quas sunt ex? Ex soluta, tempore quod sapiente repudiandae tenetur suscipit possimus earum reprehenderit similique ipsum quibusdam illo molestiae. Quia, provident reiciendis nostrum molestias officiis ea, rem a, ut suscipit est earum harum.</p>
+        </div>
+        <div class = "gallery-money-div">
+            <img src="./images/money.jpg" alt="" class="image">
+            <h2 class="title-heading">This is Money</h2>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. A at laboriosam quo vel nihil explicabo ratione ipsa, quas sunt ex? Ex soluta, tempore quod sapiente repudiandae tenetur suscipit possimus earum reprehenderit similique ipsum quibusdam illo molestiae. Quia, provident reiciendis nostrum molestias officiis ea, rem a, ut suscipit est earum harum.</p>
+        </div>
+    </section>
+</body>
+</html>
