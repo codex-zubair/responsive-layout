@@ -1,0 +1,40 @@
+
+
+.calender-section
+{
+   
+    display: grid;
+    grid-template-columns: repeat(7 , 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    
+}
+
+.calender-box
+{
+    
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+
+#calender-day-box-id-1
+
+{
+    height: 60px;
+}
+
+#calender-day-box-id-1 h1
+{
+    font-size: 1.4em;
+}
+
+
+h1
+{
+font-size: 2em;
+text-align: center;
+font-weight: bolder;
+}
